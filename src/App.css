@@ -22,7 +22,19 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.ToDo-Add {
+  background-color: green;
+  border: 2px solid green;
+  color: white;
+  margin-left: 12px;
+  margin-bottom: 20px;
+}
+
+.ToDoItem-Delete {
+  background-color: red;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid red;
+  margin-bottom: 20px;
 }
